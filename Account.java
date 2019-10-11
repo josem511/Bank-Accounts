@@ -2,8 +2,9 @@ public class Account {
     private String number;
     private double balance;
     private String customerName;
-    private String customerEmailAddress;
     private String customerPhoneNumber;
+    private String customerEmailAddress;
+
 
     public Account() {
         this("56789",2.50, "Default name", "Default address", "default phone");
@@ -18,7 +19,6 @@ public class Account {
                    String customerPhoneNumber) {
         System.out.println("Account constructor with parameters called");
         this.number=number;
-
         this.balance = balance;
         this.customerName = customerName;
         this.customerEmailAddress = customerEmailAddress;
